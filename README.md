@@ -3,11 +3,10 @@ redux-standalone-combine-reducers
  
 1. Redux introduction 03
 
-	* Multiple reducers
-        * Combine Reducers
-	* Unique Action Types - Prefer Unique name to actions
-                            to avoid state side effects
-        * Store with substates(as a reducers)
+	- Multiple reducers
+        - Combine Reducers
+	- Unique Action Types - Prefer Unique name to actions to avoid state side effects
+        - Store with substates(as a reducers)
 	
 	  	 
 
