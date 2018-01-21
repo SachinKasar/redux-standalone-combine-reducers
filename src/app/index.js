@@ -38,7 +38,7 @@ const discountReducer = (state=initialDiscountState, action) => {
 };
 
 
-const store = createStore(combineReducers({visitorReducer,discountReducer}));
+const store = createStore(combineReducers({visitorState:visitorReducer,discountState:discountReducer}));
 
 store.subscribe(() => {
 	console.log("State in store  - ", store.getState());
